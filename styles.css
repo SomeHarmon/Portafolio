@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px 0;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+#inicio { background: #ffcccb; }
+#sobre { background: #add8e6; display: flex; align-items: center; justify-content: center; text-align: left; padding: 50px; }
+#sobre .content { display: flex; max-width: 800px; align-items: center; }
+#sobre img { width: 200px; height: auto; border-radius: 10px; margin-right: 20px; }
+
+.estudios-lista {
+    list-style-type: none;
+    padding: 0;
+}
+
+.estudios-lista li {
+    background: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#habilidades {
+    background: #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+.habilidades-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.habilidades-container img {
+    width: 80px;
+    height: 80px;
+}
+
+#proyectos { background: #90ee90; display: flex; flex-direction: column; align-items: center; padding: 50px; }
+.proyecto {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 300px;
+}
+.proyecto img {
+    width: 100%;
+    border-radius: 10px;
+}
+.proyecto a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#contacto { background: #f0e68c; display: flex; flex-direction: column; align-items: center; padding: 50px; }
+.contacto-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.contacto-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.contacto-item img {
+    width: 30px;
+    height: 30px;
+}
+.contacto-item a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
